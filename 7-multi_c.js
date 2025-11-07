@@ -1,12 +1,12 @@
 let userLang = process.argv[2];
 
-let args = Number(userLang);
+let x = Number(userLang);
 
-if (isNaN(args)) {
+if (isNaN(x)) {
     console.log("Missing number of occurrences");
 }
 else {
-    for (let i = 0; i < args; i++) {
+    for (let i = 0; i < x; i++) {
         console.log("C is fun");
     }
 }
