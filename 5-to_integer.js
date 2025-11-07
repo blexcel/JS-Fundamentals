@@ -6,5 +6,5 @@ if (isNaN(intNumber)) {
     console.log("Not a number");
 }
 else {
-    console.log(`My Number:${parseInt(intNumber)}`);
+    console.log(`My Number: ${intNumber}`);
 }
